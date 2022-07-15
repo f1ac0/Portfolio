@@ -30,7 +30,7 @@ Upgrade the Amstrad CPC 464 computer with 512K RAM, 512K ROM and an emulated Flo
   - Some protections support : weak sector, sectorsize8
 - "selector" application for .dsk file selection from the CPC ; can be integrated inside Amsdos ROM or launched from floppy image.
 
-![CPC-RAMROMSDC](Images/CPC RAM ROM SDC FLACO 2019.JPG)
+![CPC-RAMROMSDC](Images/CPC%20RAM%20ROM%20SDC%20FLACO%202019.JPG)
 
 # Dual-USB-Controller-adapter
 Interface board to connect two USB controllers to the two DB9 controller ports of an Atari ST/Amiga system. Supported USB devices : mouse, keyboard, xbox360 gamepad ; other HID controllers should also work but button placement is device dependant.
@@ -47,7 +47,7 @@ Working so far :
 - 5 modes on XBOX360 gamepad
 - single USB keyboard to replace two gamepads, but you can also use two keyboards
 
-![Dual-USB-Controller-adapter](Images/Dual USB controller adapter FLACO 2020.JPG)
+![Dual-USB-Controller-adapter](Images/Dual%20USB%20controller%20adapter%20FLACO%202020.JPG)
 
 # Dual-USB-Controller-adapter-CPC
 A version of the Dual USB Controller adapter project dedicated to the Amstrad CPC to connect two USB controllers on the DB9 joystick port. Supported USB devices : mouse, keyboard, xbox360 gamepad ; other HID controllers should also work but button placement is device dependant.
@@ -64,7 +64,7 @@ Working so far :
 - Auto-Left-Right on left trigger, for "sports" games :P
 - platform mode with jump mapped on a button
 
-![Dual-USB-Controller-adapter-CPC](Images/Dual USB controller adapter CPC FLACO 2020.JPG)
+![Dual-USB-Controller-adapter-CPC](Images/Dual%20USB%20controller%20adapter%20CPC%20FLACO%202020.JPG)
 
 # USB-Controller-adapter
 An interface board that connects a USB controller (mouse, keyboard, xbox360 gamepad ; other HID devices could be added) to a single or dual DB9 controller ports of an Atari ST/Amiga system. Prequel to the "Dual" versions, it is also more protected and more complicated to build.
@@ -76,7 +76,7 @@ An adapter to plug a USB keyboard to an Amiga 500 internal keyboard connector or
 - It may be installed directly on the A500 keyboard connector of the motherboard.
 - Revision 1.0 adds a game feature to control the joystick port using the keyboard, requires additional wiring.
 
-![Amiga-USB-Keyboard-adapter](Images/Amiga USB Keyboard adapter FLACO 2020.JPG)
+![Amiga-USB-Keyboard-adapter](Images/Amiga%20USB%20Keyboard%20adapter%20FLACO%202020.JPG)
 
 # Amiga-dual-floppy-selector
 A device to connect two floppy drives inside an Amiga, identify them to the system, then choose which one is the DF0 to boot from. Its main purpose is to connect a physical drive and an emulator, but you can use two physical drives or two emulators if you want.
@@ -95,7 +95,7 @@ In addition :
 - Beware that you should not activate an external drive on the DB23 connector using the same id as an internal drive. When an external DF1 is connected, you should use "DF0 only" settings.
 - If you permanently use external drives on the DB23 connector, you may wire another DS signal instead of DS1. The device has pin headers for that.
 
-![Amiga-dual-floppy-selector](Images/Amiga dual floppy selector FLACO 2020.JPG)
+![Amiga-dual-floppy-selector](Images/Amiga%20dual%20floppy%20selector%20FLACO%202020.JPG)
 
 # Floppy-emulator-with-OSD
 This can provide both [FlashFloppy](https://github.com/keirf/flashfloppy) and [FF_OSD](https://github.com/keirf/flashfloppy-osd) on a single board.
@@ -103,7 +103,7 @@ Thanks to the OSD and Amiga keyboard support, LCD/oled display or buttons are no
 
 This board also has something special : when connected to an "Amiga dual floppy selector" board, it can daisy-chain to the original floppy drive, and the OSD will let you choose dynamically which drive is DF0 and DF1. Thanks to this you can enjoy both your original games on floppies and disk images on USB or SDcard !
 
-![Floppy-emulator-with-OSD](Images/Floppy emulator with OSD FLACO 2020.JPG)
+![Floppy-emulator-with-OSD](Images/Floppy%20emulator%20with%20OSD%20FLACO%202020.JPG)
 
 # A1200FaStRamExpansion
 8MB autoconfig Fast SRAM and 1.5MB Ranger RAM trapdoor expansion for Amiga 1200, with 512KB kickstart mapROM.
@@ -113,7 +113,7 @@ This board also has something special : when connected to an "Amiga dual floppy 
 - PCMCIA compatibility / 4MB autoconfig RAM : jumper for permanent setup, or via software for temporary setup.
 - 2-layers PCB.
 
-![A1200FaStRamExpansion](Images/A1200FaStRamExpansion FLACO 2020.JPG)
+![A1200FaStRamExpansion](Images/A1200FaStRamExpansion%20FLACO%202020.JPG)
 
 # PCMCIA-SRAM
 A 4MB PCMCIA SRAM for Amiga 600 and 1200, using components available in 2020.
@@ -125,7 +125,7 @@ About the project :
 - It uses a 5V SRAM chip so it does not need level converters. This RAM chip is pricey however, so you might chose to make a 2MB card using just one of it.
 - The SRAM chip is fast and the CIS advertise the fastest speed possible. Thanks to this the A600 and A1200 runs faster : they benefit from the added RAM with direct access for the CPU, at least for 16bit applications on the A1200. 
 
-![PCMCIA-SRAM](Images/PCMCIA-SRAM FLACO 2020.JPG)
+![PCMCIA-SRAM](Images/PCMCIA-SRAM%20FLACO%202020.JPG)
 
 # AmigaWiFi
 Three different RS232 WiFi boards with ESP8266 to connect the Amiga to the world with Zimodem or esp\_slip\_router firmwares.
@@ -133,7 +133,7 @@ Three different RS232 WiFi boards with ESP8266 to connect the Amiga to the world
 - AmigaWiFi3232_internal : connects internally. Provides TX/RX/RTS/CTS for communication and hardware flow control.
 - AmigaWifi3237 : plugs into the DB25 serial port. Provides TX/RX/RTS/CTS/DTR/DSR/DCD/RI for communication, hardware flow control, carrier detect, ring. Needs external 5V supply through micro or mini-USB.
 
-![AmigaWiFi](Images/AMIGA WiFi FLACO 2017.JPG)
+![AmigaWiFi](Images/AMIGA%20WiFi%20FLACO%202017.JPG)
 
 # CPC-plus-cartridge
 Different PCB designs and CPLD code to make a CPC-plus cartridge.
@@ -141,7 +141,7 @@ Different PCB designs and CPLD code to make a CPC-plus cartridge.
 - the PLCC version can be used with PLCC SST39SF040 ROMs and its size is more standard
 - They both have jumpers to select 128k, 256k or 512K cartridge ROM banks
 
-![CPC-plus-cartridge](Images/CPC plus Cartridge FLACO 2020.JPG)
+![CPC-plus-cartridge](Images/CPC%20plus%20Cartridge%20FLACO%202020.JPG)
 
 # PistormX
 This Pistorm'X is a simplified [Pistorm](https://github.com/captain-amygdala/pistorm) CPU board, where all the logic is integrated inside a single XC94144XL-10TQ100 CPLD with 5V compatible IOs.
@@ -149,7 +149,7 @@ This Pistorm'X is a simplified [Pistorm](https://github.com/captain-amygdala/pis
 - It is easier to assemble manually.
 - I use it frequently and it seems to behave quite the same as the original CPU board according to my tests.
 
-![PistormX](Images/PistormX FLACO 2021.JPG)
+![PistormX](Images/PistormX%20FLACO%202021.JPG)
 
 # Greaseweazle
 The project is just a recreated [Greaseweazle](https://github.com/keirf/greaseweazle) "F1" board making use of the bare chips instead of a bluepill module, and designed to plug directly into a standard PC drive.
@@ -160,7 +160,7 @@ The project is just a recreated [Greaseweazle](https://github.com/keirf/greasewe
 - It works with the original "F1" Greaseweazle firmware and tool
 - It is updated to support the DISKCHANGE signal and to be able to report as a "F1 plus" board. This is necessary for the WinUAE FloppyBridge plugin by Robert Smith
 
-![Greaseweazle](Images/Greaseweazle board FLACO 2020.JPG)
+![Greaseweazle](Images/Greaseweazle%20board%20FLACO%202020.JPG)
 
 # SDbox
 This is just a recreated [SDbox](https://github.com/jbilander/sdbox) board making use of the bare chips instead of breadboard modules.
@@ -168,7 +168,7 @@ This is just a recreated [SDbox](https://github.com/jbilander/sdbox) board makin
 - It accommodates big SD cards instead of microSD
 - It takes its power from a Mini or Micro USB or from a pin header
 
-![SDbox](Images/SDBOX FLACO 2021.jpg)
+![SDbox](Images/SDBOX%20FLACO%202021.jpg)
 
 # CPCDandanator
 This project is a personal version of the famous ["CPC Dandanator! Mini" by Dandare](http://www.dandare.es/Proyectos_Dandare/CPC_Dandanator%21_Mini.html).
@@ -177,17 +177,17 @@ This project is a personal version of the famous ["CPC Dandanator! Mini" by Dand
 - XC9572XL in VQ64 package (although Kicad files with VQ44 are also provided).
 - On this PCB I used a crystal-less CH340E to reduce BOM. WARNING: serial/USB communication does not work for me
 
-![CPCDandanator](Images/CPCDandanator FLACO 2020.JPG)
+![CPCDandanator](Images/CPCDandanator%20FLACO%202020.JPG)
 
 # Kickstart-programmer
 27C400, 27C800, 27C160 or 27C322 adapter for TL866 and clones.
 
-![Kickstart-programmer](Images/Kickstart Programmer FLACO 2019.JPG)
+![Kickstart-programmer](Images/Kickstart%20Programmer%20FLACO%202019.JPG)
 
 # Kickstart-selector
 Use a 1MB 27C800 or 2MB 27C160 ROM chip prepared with 2 or 4 kickstart images, select which one to boot your Amiga from.
 
-![Kickstart-selector](Images/Kickstart Selector FLACO 2019.JPG)
+![Kickstart-selector](Images/Kickstart%20Selector%20FLACO%202019.JPG)
 
 # OpenA1200RTC
 [OpenA1200RTC](https://github.com/screwbreaker/OpenA1200RTC) is an Open Hardware RTC module for the Amiga 1200 by screwbreaker and Sukkopera. This project is a different layout of the board, with almost the same BOM :
@@ -195,7 +195,7 @@ Use a 1MB 27C800 or 2MB 27C160 ROM chip prepared with 2 or 4 kickstart images, s
 - no jumper to disable the board,
 - footprint for CR1220 and wired cell in addition to the CR2032.
 
-![OpenA1200RTC](Images/OpenA1200RTC FLACO 2019.JPG)
+![OpenA1200RTC](Images/OpenA1200RTC%20FLACO%202019.JPG)
 
 # OpenAmiga600RamExpansion
 [OpenAmiga600RamExpansion](https://github.com/SukkoPera/OpenAmiga600RamExpansion/) is an Open Hardware 1 MB Chip RAM Expansion for the Commodore Amiga 600 Computer with optional Real Time Clock, by SukkoPera. This project is a different layout of the board, with almost the same BOM :
@@ -203,7 +203,7 @@ Use a 1MB 27C800 or 2MB 27C160 ROM chip prepared with 2 or 4 kickstart images, s
 - inverted connector, so that components are facing downside and the solder joints do not touch the trapdoor,
 - footprint for CR1220 in addition to the CR2032.
 
-![OpenAmiga600RamExpansion](Images/OpenAmiga600RamExpansion FLACO 2019.JPG)
+![OpenAmiga600RamExpansion](Images/OpenAmiga600RamExpansion%20FLACO%202019.JPG)
 
 
 # About me
